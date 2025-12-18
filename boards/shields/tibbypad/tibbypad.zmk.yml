@@ -1,0 +1,7 @@
+file_format: "1"
+id: tibbypad
+name: TibbyPad
+type: shield
+url: https://github.com/jufranz/tibbypad-module
+requires:
+  - xiao_ble

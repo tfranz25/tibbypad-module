@@ -1,0 +1,6 @@
+if SHIELD_TIBBYPAD
+ 
+config ZMK_KEYBOARD_NAME
+  default "TibbyPad"
+ 
+endif
