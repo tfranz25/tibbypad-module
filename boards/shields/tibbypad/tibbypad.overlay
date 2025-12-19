@@ -1,4 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/zmk/ext_power.h>
 
 / {
   chosen {
@@ -41,5 +42,9 @@
     display-name = "Default Layout";
     kscan = <&kscan0>;
     transform = <&default_transform>;
+  };
+  EXT_POWER {
+    compatible = "zmk,ext-power-generic";
+    control-gpios = <&xiao_d 8 GPIO_ACTIVE_HIGH>;
   };
 };
