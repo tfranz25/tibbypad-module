@@ -46,5 +46,6 @@
   EXT_POWER {
     compatible = "zmk,ext-power-generic";
     control-gpios = <&xiao_d 8 GPIO_ACTIVE_HIGH>;
+    init-delay-ms = <100>;
   };
 };
