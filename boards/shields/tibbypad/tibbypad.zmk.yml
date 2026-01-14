@@ -5,3 +5,7 @@ type: shield
 url: https://github.com/jufranz/tibbypad-module
 requires:
   - xiao_ble
+features:
+  - keys
+  - underglow
+  - studio

@@ -21,3 +21,4 @@
 include:
   - board: xiao_ble
     shield: tibbypad
+    snippet: studio-rpc-usb-uart
