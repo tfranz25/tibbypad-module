@@ -43,13 +43,13 @@
       RC(4,0) RC(4,1) RC(4,2) RC(4,3)
     >;
   };
- 	physical_layout0: physical_layout_0 {
-		compatible = "zmk,physical-layout";
-   	display-name = "Default Layout";
+  physical_layout0: physical_layout_0 {
+    compatible = "zmk,physical-layout";
+    display-name = "Default Layout";
     kscan = <&kscan0>;
     transform = <&default_transform>;
-			/* Keys:                  W   H    X    Y  ROT  RX  RY */
-			keys
+      /* Keys:                  W   H    X    Y  ROT  RX  RY */
+      keys
         = <&key_physical_attrs 100 100    0    0    0   0   0>
         , <&key_physical_attrs 100 100  100    0    0   0   0>
         , <&key_physical_attrs 100 100  200    0    0   0   0>
@@ -74,7 +74,7 @@
         , <&key_physical_attrs 100 100  100  400    0   0   0>
         , <&key_physical_attrs 100 100  200  400    0   0   0>
         , <&key_physical_attrs 100 100  300  400    0   0   0>
-					;
+        ;
     };
 
   EXT_POWER {
