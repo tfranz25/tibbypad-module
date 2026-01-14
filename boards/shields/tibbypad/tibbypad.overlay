@@ -2,11 +2,10 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
-
   key_physical_attrs: key_physical_attrs {
-        compatible = "zmk,key-physical-attrs";
-        #binding-cells = <2>;
-        #key-cells = <7>;
+      compatible = "zmk,key-physical-attrs";
+      #binding-cells = <2>;
+      #key-cells = <7>;
     };
 
   chosen {
@@ -45,37 +44,37 @@
     >;
   };
  	physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        kscan = <&kscan0>;
-        transform = <&default_transform>;
-        /* Keys:                W   H    X    Y  ROT  RX  RY */
-        keys
-            = <&key_physical_attrs 100 100    0    0    0   0   0>
-            , <&key_physical_attrs 100 100  100    0    0   0   0>
-            , <&key_physical_attrs 100 100  200    0    0   0   0>
-            , <&key_physical_attrs 100 100  300    0    0   0   0>
+		compatible = "zmk,physical-layout";
+   	display-name = "Default Layout";
+    kscan = <&kscan0>;
+    transform = <&default_transform>;
+			/* Keys:                  W   H    X    Y  ROT  RX  RY */
+			keys
+        = <&key_physical_attrs 100 100    0    0    0   0   0>
+        , <&key_physical_attrs 100 100  100    0    0   0   0>
+        , <&key_physical_attrs 100 100  200    0    0   0   0>
+        , <&key_physical_attrs 100 100  300    0    0   0   0>
 
-            , <&key_physical_attrs 100 100    0  100    0   0   0>
-            , <&key_physical_attrs 100 100  100  100    0   0   0>
-            , <&key_physical_attrs 100 100  200  100    0   0   0>
-            , <&key_physical_attrs 100 100  300  100    0   0   0>
+        , <&key_physical_attrs 100 100    0  100    0   0   0>
+        , <&key_physical_attrs 100 100  100  100    0   0   0>
+        , <&key_physical_attrs 100 100  200  100    0   0   0>
+        , <&key_physical_attrs 100 100  300  100    0   0   0>
 
-            , <&key_physical_attrs 100 100    0  200    0   0   0>
-            , <&key_physical_attrs 100 100  100  200    0   0   0>
-            , <&key_physical_attrs 100 100  200  200    0   0   0>
-            , <&key_physical_attrs 100 100  300  200    0   0   0>
+        , <&key_physical_attrs 100 100    0  200    0   0   0>
+        , <&key_physical_attrs 100 100  100  200    0   0   0>
+        , <&key_physical_attrs 100 100  200  200    0   0   0>
+        , <&key_physical_attrs 100 100  300  200    0   0   0>
 
-            , <&key_physical_attrs 100 100    0  300    0   0   0>
-            , <&key_physical_attrs 100 100  100  300    0   0   0>
-            , <&key_physical_attrs 100 100  200  300    0   0   0>
-            , <&key_physical_attrs 100 100  300  300    0   0   0>
+        , <&key_physical_attrs 100 100    0  300    0   0   0>
+        , <&key_physical_attrs 100 100  100  300    0   0   0>
+        , <&key_physical_attrs 100 100  200  300    0   0   0>
+        , <&key_physical_attrs 100 100  300  300    0   0   0>
 
-            , <&key_physical_attrs 100 100    0  400    0   0   0>
-            , <&key_physical_attrs 100 100  100  400    0   0   0>
-            , <&key_physical_attrs 100 100  200  400    0   0   0>
-            , <&key_physical_attrs 100 100  300  400    0   0   0>
-            ;
+        , <&key_physical_attrs 100 100    0  400    0   0   0>
+        , <&key_physical_attrs 100 100  100  400    0   0   0>
+        , <&key_physical_attrs 100 100  200  400    0   0   0>
+        , <&key_physical_attrs 100 100  300  400    0   0   0>
+					;
     };
 
   EXT_POWER {
