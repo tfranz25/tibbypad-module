@@ -70,11 +70,11 @@
     fn_layer { // layer 3
       display-name = "FN Layer";
       bindings = <
-        &kp C_MUTE    &kp C_VOL_DN    &kp C_VOL_UP      &rgb_ug RGB_TOG
-        &none         &none           &none             &rgb_ug RGB_BRI
-        &none         &none           &none             &rgb_ug RGB_BRD
-        &kp KP_NUM    &bt BT_CLR_ALL  &studio_unlock    &rgb_ug RGB_SPI
-        &none         &rgb_ug RGB_EFR &rgb_ug RGB_EFF   &rgb_ug RGB_SPD
+        &kp C_MUTE       &kp C_VOL_DN     &kp C_VOL_UP     &none
+        &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &rgb_ug RGB_SPI  &none
+        &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &none
+        &kp KP_NUM       &bt BT_CLR_ALL   &studio_unlock   &none
+        &none            &none            &none            &none
       >;
     };
   };

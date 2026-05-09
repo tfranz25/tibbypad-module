@@ -10,6 +10,7 @@
 
   chosen {
     zmk,physical-layout = &physical_layout0;
+    zmk,underglow = &led_strip;
   };
   kscan0: kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
