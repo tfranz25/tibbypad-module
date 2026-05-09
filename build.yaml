@@ -19,6 +19,6 @@
 #
 ---
 include:
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: tibbypad
     snippet: studio-rpc-usb-uart
