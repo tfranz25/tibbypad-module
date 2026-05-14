@@ -67,8 +67,8 @@
       display-name = "FN Layer";
       bindings = <
         &kp KP_NUM       &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1
-        &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI
-        &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD
+        &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &ind_bat
+        &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &ind_con
         &rgb_ug RGB_TOG  &kp C_MUTE       &kp C_VOL_DN     &kp C_VOL_UP
         &none            &kp C_PREVIOUS   &kp C_PLAY_PAUSE &kp C_NEXT
       >;
