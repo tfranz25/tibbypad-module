@@ -20,5 +20,5 @@
 ---
 include:
   - board: xiao_ble//zmk
-    shield: tibbypad
+    shield: tibbypad rgbled_adapter
     snippet: studio-rpc-usb-uart
