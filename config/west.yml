@@ -17,5 +17,8 @@ manifest:
     - name: zmk-usb-rgb-idle-bypass
       url: https://github.com/tfranz25/zmk-usb-rgb-idle-bypass
       revision: main
+    - name: zmk-rgb-plus
+      url: https://github.com/tfranz25/zmk-rgb-plus
+      revision: main
   self:
     path: config
