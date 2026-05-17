@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <behaviors/rgbled_widget.dtsi>
 #include <dt-bindings/zmk/rgb_plus.h>
 
@@ -77,8 +78,8 @@
       display-name = "FN Layer";
       bindings = <
         &kp KP_NUM          &bt BT_CLR          &bt BT_SEL 0        &bt BT_SEL 1
-        &rgb_plus eff_next  &rgb_plus spd_inc   &none               &ind_bat
-        &rgb_plus eff_prev  &rgb_plus spd_dec   &none               &ind_con
+        &rgb_plus eff_next  &rgb_plus spd_inc   &ext_power EP_ON    &rgb_ug RGB_TOG
+        &rgb_plus eff_prev  &rgb_plus spd_dec   &ext_power EP_OFF   &rgb_ug RGB_EFF
         &rgb_plus reac_tog  &kp C_MUTE          &kp C_VOL_DN        &kp C_VOL_UP
         &none               &mt C_PREV C_RW     &kp C_PLAY_PAUSE    &mt C_NEXT C_FF
       >;
